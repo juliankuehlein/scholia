@@ -100,3 +100,5 @@ Drag Scholia to the Trash. To remove your data as well, delete `~/Library/Applic
 ---
 
 *Scholia is a personal project and is not affiliated with Anthropic. Cost figures in the app are estimates from list prices and may differ slightly from your invoice. Please don't redistribute the app without asking.*
+
+© 2026 Julian Kühlein. All rights reserved. See [LICENSE](LICENSE) — copying, modifying or redistributing Scholia or its code is not permitted without written permission.
