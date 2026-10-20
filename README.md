@@ -45,7 +45,7 @@ xattr -dr com.apple.quarantine /Applications/Scholia.app
 1. Create a key at [console.anthropic.com](https://console.anthropic.com) under **API keys** (billing must be set up there; you pay Anthropic directly, only for what you use).
 2. In Scholia open **Scholia ▸ Settings** (⌘,), paste the key and click **Save to Keychain**.
 
-That's it — create a project, drag your PDFs into the left bar and start reading. Press **⌘** once for key tips.
+That's it — create a project, drag your PDFs into the left bar and start reading.
 
 ---
 
@@ -85,7 +85,7 @@ The key is stored **only in your Mac's Keychain**. It is not in the app, not in 
 
 ### Handy shortcuts
 
-Tap **⌘** once (or hold it) to see key tips, then press the letter. The usual ones: **⌘K** apply an existing code · **⌘J** new code · **⌘I** AI code suggestions · **⌘⌥C** auto-code or review · **⌘B** add selection to the watchlist · **⌘⇧N** notebook · **⌘⇧A** analysis · **⌘⇧F** focus mode · **⌘W** close tab.
+The usual ones (all in the menus too): **⌘K** apply an existing code · **⌘J** new code · **⌘I** AI code suggestions · **⌘⌥C** auto-code or review · **⌘B** add selection to the watchlist · **⌘⇧N** notebook · **⌘⇧A** analysis · **⌘⇧F** focus mode · **⌘W** close tab.
 
 ## Privacy & security
 
