@@ -1,6 +1,30 @@
 {
   "releases": [
     {
+      "version": "1.0.1",
+      "date": "2026-10-20",
+      "minOS": "14.0",
+      "url": "https://github.com/juliankuehlein/scholia/releases/download/v1.0.1/Scholia-1.0.1.zip",
+      "sha256": "2c8666a583c7f28f0f433796d814543d410f330b24777845f83c2588ddf2fa65",
+      "signature": "OGUVpG0wLYHvoBwPMIkTPCdK4v2znx0GQaZPz7d+YGk993EEI84Dz7vxHPB53vL6lRX1nIeJ+s8G5AVbDwOmCw==",
+      "size": 5742296,
+      "notes": [
+        "Paper network shows every paper once: duplicate copies are merged and papers no longer appear to cite themselves",
+        "Both graphs (paper network and shared authors) now use gravity: the most connected papers sit in the middle and names no longer overlap",
+        "Marking text: all your codes are shown alphabetically over as many rows as needed, with a search field that already has the cursor — type to narrow them, ↩ applies the first match or creates a new code",
+        "Shared authors: one small clickable row per paper under each author",
+        "Uploading many papers stays smooth, with progress shown; OCR and AI work run a few at a time",
+        "After adding several papers: one click to name, tag and summarise them all, with a cost estimate first (also in the Library)",
+        "Background AI work (summaries, naming, topics, network, auto-coding) uses Sonnet 5.5 by default, and summaries never start without asking",
+        "README with screenshots on GitHub",
+        "Search (magnifier in the top bar): find text across all papers, a group or chosen papers, with AND / OR / NOT and \"phrases\", or ask a question with AI. Results are a clickable list of passages and stay in their own tab until you close it.",
+        "Every new code gets a colour clearly different from your existing ones; the palette button in the Codes header spreads look-alike colours apart.",
+        "Watchlist: marking an in-text citation now finds the full reference in that paper's reference list (title, authors, journal, DOI). Watched papers show up as dashed placeholders at the top of the left bar, and when the paper lands in your library you are offered to remove it from the watchlist.",
+        "Scholia remembers what you had open: when you start it again, your project, paper tabs, reading position in each paper and notebook tabs are back."
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "1.0.0",
       "date": "2026-10-20",
       "minOS": "14.0",
