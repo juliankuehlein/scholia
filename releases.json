@@ -1,0 +1,21 @@
+{
+  "releases": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-20",
+      "minOS": "14.0",
+      "url": "https://github.com/juliankuehlein/scholia/releases/download/v1.0.0/Scholia-1.0.0.zip",
+      "sha256": "60f27fc7a46c45184bfd4d54b928a658911a8bbf88c9bd8015dddc1a6359f34e",
+      "signature": "YZmZKkVGVWaIBrZml+x7WsPCglEUXWVUX3Um8M/f4V58YtIr1bl2pV1I4sCvgwkRFqJ9MWHdmUhZGL+Q6DbkAA==",
+      "size": 5032276,
+      "notes": [
+        "Read and annotate PDFs with OCR for scans, highlights and margin code labels",
+        "Code passages and figures; AI suggestions and an AI auto-coder you review like tracked changes",
+        "Notebook with @ paper tags, citations that jump back to the exact passage, and a reference list",
+        "Library overview, word clouds, co-occurrence, AI paper summaries and a paper-relationship network",
+        "Your API key stays in your own Keychain; everything else stays on your Mac"
+      ],
+      "channel": "stable"
+    }
+  ]
+}
