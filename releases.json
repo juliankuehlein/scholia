@@ -1,6 +1,29 @@
 {
   "releases": [
     {
+      "version": "1.0.2",
+      "date": "2026-10-20",
+      "minOS": "14.0",
+      "url": "https://github.com/juliankuehlein/scholia/releases/download/v1.0.2/Scholia-1.0.2.zip",
+      "sha256": "9382f502f64eabcd631224602644e8362d251874733cf023cfa1ff4e5e03f27a",
+      "signature": "OaHyhH74ujuRk5L1ahPmRb1uB2pD8tlnjdoDOJeM/eC3wTFtNSn1pWVWzMe9G9IQt3Pi4m4IQxI1zmDeAGIvCw==",
+      "size": 5982305,
+      "notes": [
+        "Quality signals in each paper summary (from OpenAlex): peer-reviewed article or preprint, retraction warning, number of citations, journal h-index and first/last author h-index.",
+        "Pin papers to the top of the left bar (right-click ▸ Pin to top). New papers without a year, journal or author appear at the top of the list, and papers that were never named keep a one-click “Name & tag” button.",
+        "Right-click anywhere on a paper row to get the full menu, including “Name & tag with AI”.",
+        "The paper network writes the relation on every line (cites, supports, contradicts, …) and shows clearly which paper cites which, with larger arrows.",
+        "Library: every topic cluster now shows its papers, and clicking a journal bar lists the papers published there.",
+        "Watchlist: adding a paper that is already in your project (or arrives later) offers to remove it from the watchlist; the Watchlist section in the left bar can be folded away.",
+        "Scholia remembers what you had open: project, paper tabs, reading position and notebook tabs are back when you start it again.",
+        "The first time an API key is added you choose your standard model yourself, with prices shown.",
+        "Top bar reordered: Papers, Notebook, Library, Watchlist, Network, Co-occurrence, Focus, Coffee, Search, Panel. Word cloud and Summary moved next to Auto-code in the paper toolbar.",
+        "⌘C now copies text selected in the reader, code labels no longer paint over the toolbar, the ⌘ key-tip popup is gone, and look-alike code colours are separated automatically.",
+        "Summaries are read more reliably when the AI answer is slightly malformed."
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "1.0.1",
       "date": "2026-10-20",
       "minOS": "14.0",
