@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "version": "1.0.4",
+      "date": "2026-10-21",
+      "minOS": "14.0",
+      "url": "https://github.com/juliankuehlein/scholia/releases/download/v1.0.4/Scholia-1.0.4.zip",
+      "sha256": "396ecb117ee1b7e9ee1ef669f06afc8e8a0c1f6c41fb9971c8ac7d439d4cacef",
+      "signature": "Jb/sKFEuclA8MEw9eiCouxuhaU+Aw6YyZxdzKfLGIb9U0LlM+TfavEZ48Evx/uezyOPvbsMFWzOgnb4Th8htBQ==",
+      "size": 6528965,
+      "notes": [
+        "Watchlist “Re-check” is now much more thorough: the AI looks at the actual page pictures (the page where you marked the citation and the last page of the paper) instead of the OCR text, finds the full reference and then looks up the DOI. It costs a few cents more per entry and shows the price first."
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "1.0.3",
       "date": "2026-10-21",
       "minOS": "14.0",
