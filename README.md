@@ -30,7 +30,9 @@ Scholia is an independent app and is not notarized by Apple (that would cost the
 
 From now on Scholia opens like any other app, and **new versions install themselves** from inside the app. If your Mac asks whether Scholia may use the **Keychain**, choose **Always Allow**.
 
-<details><summary>It still won't open, or says the app is “damaged”?</summary>
+<details><summary>It still won't open, or says the app is “damaged”? (last resort, uses Terminal)</summary>
+
+Try **Open Anyway** (step 3) first. If you do use Terminal and macOS offers to install the **command line developer tools**, you can click *Install* (about 5 minutes) or *Not now* — Scholia itself never needs them.
 
 Open the **Terminal** app, paste this line and press Return, then open Scholia again:
 
@@ -91,7 +93,7 @@ The usual ones (all in the menus too): **⌘K** apply an existing code · **⌘J
 
 - **No account, no tracking, no analytics.** The developer cannot see your papers, notes, codes or key.
 - **Your data stays on your Mac** in `~/Library/Application Support/Scholia/Projects/`. Your original PDFs are copied in and never modified.
-- **Network access is limited to three things:** Anthropic (only when you use an AI feature; the text you work with is sent for that request), [OpenAlex](https://openalex.org) (paper *titles* only, to confirm journal and authors — switch it off in Settings), and one small update-list file on GitHub.
+- **Network access is limited to a few things:** your AI provider, [Anthropic](https://www.anthropic.com) (Claude) or [Mistral AI](https://mistral.ai) — only the one you choose in Settings, and only when you use an AI feature (the text you work with is sent for that request), [OpenAlex](https://openalex.org) and [Crossref](https://www.crossref.org) (a paper's title, DOI or reference text only, to confirm journal and authors, find DOIs and show citation counts — switch it off in Settings), and one small update-list file on GitHub.
 - **Updates are verified.** Each update is signed with a key only the developer holds, checked before it is installed, and must carry the same code signature as the app you already have. Damaged or unsigned downloads are refused. Your project files are backed up before an update is installed.
 - The app runs with the macOS *hardened runtime*.
 
