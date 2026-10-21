@@ -1,6 +1,34 @@
 {
   "releases": [
     {
+      "version": "1.0.3",
+      "date": "2026-10-21",
+      "minOS": "14.0",
+      "url": "https://github.com/juliankuehlein/scholia/releases/download/v1.0.3/Scholia-1.0.3.zip",
+      "sha256": "6c4be0d5a02c418663b2ddec6ea4865cf45ca9a48d798b9b91da3d93a4bc156f",
+      "signature": "3+YziSPdvF0czaJ7s7vrxv9bdc4O2hmB5H2YVOIU/BBw/v7es1PLP+umpSYzjrN3ER3YXR5kD7qPX2oCLa7EBQ==",
+      "size": 6513540,
+      "notes": [
+        "Important fix: the AI search could get stuck on some pages and use up all of the Mac's memory. This is fixed, and Scholia now also watches its own memory and saves and closes itself before it could ever slow your Mac down.",
+        "A welcome tour for new users that shows around the app and explains what a code is (replay it under Help ▸ Welcome tour).",
+        "Confetti when you create your very first code.",
+        "Lower AI costs: background tasks no longer spend tokens on long hidden reasoning.",
+        "Long code names wrap onto several rows in the labels next to the PDF.",
+        "Clearer AI: every analysis view says whether it runs on your Mac or uses AI, and Settings lists where AI is used. The sparkle “Name & tag” button now stays for 30 seconds after an upload.",
+        "The Word cloud button next to Auto-code now shows that paper only (computed on your Mac, no AI).",
+        "More reliable watchlist: references are looked up in the paper's own reference list (also numbered ones), DOIs come from Crossref and OpenAlex, and a new “Re-check” button reads incomplete entries again in precise mode.",
+        "New bug icon in the top bar: report a bug or suggest a feature as a draft on GitHub (nothing is sent automatically).",
+        "Paper network: click a circle to see which paper it is (title, authors, how it connects) and open it. In the Library every paper now has the colour of the cluster it sits in, and a ring marks papers that fit more than one topic.",
+        "You can now use Mistral instead of Claude: choose the AI provider in Settings (separate key, models and prices for each).",
+        "The tour mentions that Scholia is a vibe-coded app, and the Library no longer shuffles papers, authors or journals with equal counts when you click elsewhere.",
+        "Notebook: the main page lists its subpages as clickable chapters, renaming a page updates the links to it, the / menu selects the highlighted command with Return, and long gaps after links are gone.",
+        "Notebook quotes: “To notebook” copies the quote with its citation and opens the notebook, ready to paste. Quotes from papers are shown as highlighted blocks and are locked against accidental edits (right-click ▸ Edit this quote).",
+        "Notebook: /page inserts a link to the new subpage where your cursor was, ⌘⌫ deletes to the start of the line, ⌘Z / ⇧⌘Z undo and redo work reliably, and formatting marks (#, **, *, `) only show on the line or word where your cursor is.",
+        "Paper network: a status line says whether AI classification is up to date or how many pairs are still unjudged (with price), and topic-similar pairs the AI has already looked at are never paid for twice. The left bar is now sorted by year by default."
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "1.0.2",
       "date": "2026-10-20",
       "minOS": "14.0",
