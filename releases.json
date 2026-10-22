@@ -1,6 +1,30 @@
 {
   "releases": [
     {
+      "version": "1.0.5",
+      "date": "2026-10-22",
+      "minOS": "14.0",
+      "url": "https://github.com/juliankuehlein/scholia/releases/download/v1.0.5/Scholia-1.0.5.zip",
+      "sha256": "ba16b62fc5ec7ca96ea2ed7774098bdb44a897ea68b5d08c68e35f7a45320589",
+      "signature": "qUGLzhZcdlvVsaKQs8JjVBtewbXAUqlHhvKf9/u8BA+pJx852K9xwPiaaLM7y1JE2ptfpIzXzRm7bZeV3x/vDg==",
+      "size": 6808769,
+      "notes": [
+        "Memory: Scholia now keeps only a few papers in memory, cleans up after each paper it reads in the background and limits its text caches. If memory ever grows unusually large it saves a short report about what it was doing (Application Support/Scholia/MemoryReports), so the cause can be found and fixed.",
+        "Notebook: typing # (or ##, ###) followed by text turns the line into a heading right away, even without a space.",
+        "Library: Topics shows whether the AI analysis is up to date, long journal names are readable, and the paper network no longer claims to be up to date when you have added new papers.",
+        "Edit info & tags: the Group field can be typed into again and its menu offers “No group” and your groups.",
+        "Paper status: right-click a paper to mark it Open, Work in progress (yellow), Done (green) or Ruled out (pale). \"Status\" is also a grouping option in the left bar.",
+        "Quotes with missing spaces: Scholia detects PDFs whose text layer lost its spaces and offers \"Fix missing spaces\" (re-reads the pages and repairs saved quotes).",
+        "Notebook: pictures (paste, drop or /picture) and round bullets.",
+        "Coded passages can be lengthened or shortened: select one and drag the handles at its start and end.",
+        "Left bar: the project name above the search field is gone; the search field has its full width.",
+        "Watchlist: references in PDFs without spaces between words are read correctly (spaces repaired, multi-word surnames like \"van der Veen\" handled).",
+        "Journal page numbers: Scholia finds the real page numbers of papers that are only a page range of an issue (e.g. pp. 917–931) and uses them for quotes, citations, exports and search results. Right-click a paper ▸ Journal page numbers, or use the … menu to detect them for all papers.",
+        "Updating no longer leaves two copies of Scholia open: the old one is always closed, and a leftover old copy is closed when the new one starts."
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "1.0.4",
       "date": "2026-10-21",
       "minOS": "14.0",
