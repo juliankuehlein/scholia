@@ -1,6 +1,27 @@
 {
   "releases": [
     {
+      "version": "1.0.6",
+      "date": "2026-10-25",
+      "minOS": "14.0",
+      "url": "https://github.com/juliankuehlein/scholia/releases/download/v1.0.6/Scholia-1.0.6.zip",
+      "sha256": "0d17431a73178667ea7741d192b7bee3c6017f626068f73e7d96765ff91d3caf",
+      "signature": "f3QgQNal70r2weaCEYiK5HZSJHm0hO+N+0unxlOj018KoUwiNd+biTXmG5smbYkpLJwbLOyml6ASrDG9VU2DAw==",
+      "size": 7455223,
+      "notes": [
+        "Paper network: the drawing area grows with the number of papers. Drag to move around, pinch or use +/− to zoom, and the arrow button shows everything again.",
+        "Search: new \"Coded passages\" option searches only what you coded (passage text, your comments and code names), optionally limited to chosen codes.",
+        "Copying text from a paper with a spaceless text layer (⌘C) now gives properly spaced text.",
+        "Web pages saved as PDF are recognised: the organisation behind the site becomes the author (APA style, e.g. ENTSO-E), the year is the year you saved the page, the site name stands in for the journal, and the address is kept for the reference list.",
+        "Export: new \"Research dossier\" (Markdown) marked as the best choice for Claude and other AI: codebook, every paper with reference and summary, your coded passages in reading order with page, codes and comments, and your notebook.",
+        "Export all papers as one ZIP of PDFs, and a share button at the bottom of the left bar opens the export list.",
+        "Paper priority: hover a paper in the left bar and click one of three \"!\" (click the same one again to clear it). Set priorities stay visible, and \"Priority\" is a new group-by option.",
+        "Auto-code per code: hover a code in the right bar and click \"Autocode\". The AI learns from the passages you coded with it, looks through all papers for similar passages and suggests them. You review and confirm every suggestion; nothing is coded automatically. A warning appears when fewer than 5 passages are coded.",
+        "Papers no longer open as tabs (tabs stay for searches and notebook pages). Fixed a crash when coding text inside a framed table."
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "1.0.5",
       "date": "2026-10-22",
       "minOS": "14.0",
