@@ -1,6 +1,21 @@
 {
   "releases": [
     {
+      "version": "1.0.7",
+      "date": "2026-10-27",
+      "minOS": "14.0",
+      "url": "https://github.com/juliankuehlein/scholia/releases/download/v1.0.7/Scholia-1.0.7.zip",
+      "sha256": "31fd3c75dad515998df1e5219bdd1474d5f6dee7fc11fc9ead201ddd8338bda5",
+      "signature": "8SvbO+JkG7Thuf0S1oejG0lRTy+wfeMIRvrmvPzvrRca/We+pfFg3mnPtwYvgbqKT87nMLXQAjoKb2HpDtUbBQ==",
+      "size": 7702965,
+      "notes": [
+        "A paper with at least one coded passage becomes \"Work in progress\" automatically, unless you set its status yourself (setting it back to Open keeps it Open).",
+        "New app icon: cyber-pink and more modern.",
+        "Clicking a coded passage in the reader now opens it in the Quotations tab of the right bar, with its comment field ready."
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "1.0.6",
       "date": "2026-10-25",
       "minOS": "14.0",
