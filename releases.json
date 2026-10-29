@@ -1,6 +1,25 @@
 {
   "releases": [
     {
+      "version": "1.0.8",
+      "date": "2026-10-29",
+      "minOS": "14.0",
+      "url": "https://github.com/juliankuehlein/scholia/releases/download/v1.0.8/Scholia-1.0.8.zip",
+      "sha256": "be3ab2d65165891654246f70ac4d7d1c28ad9128abe29de83c486cd7c87ffa8f",
+      "signature": "Os4W60BCGMb3F8mH8pvwWUIzHG06DppkFO2MvyMMe2E7DCHyGzUp6xXGzUmsU0izfD6MtnaN3dEUyFjXVmGVAg==",
+      "size": 7889745,
+      "notes": [
+        "Fixed the reader's top bar in narrower windows: the \"Fix spaces\" button no longer stacks its text vertically and stretches the bar; the bar switches to icons earlier.",
+        "Focus mode: move the pointer to the left or right screen edge and the paper list or the codes bar slides in; it stays while the pointer is on it, so you can switch papers without leaving focus mode.",
+        "Backup: Settings ▸ Backup copies all projects (codes, notebook, PDFs, pictures) to a folder of your choice, by default \"Scholia Backup\" in iCloud Drive, at start and every 10 minutes. Nothing is ever deleted from the backup, and \"Restore missing projects\" brings projects back on a new Mac.",
+        "Run OCR no longer adds a second text layer to papers that already have one (it made selections jump between columns). New: right-click a paper ▸ Replace PDF file… swaps in another PDF (for example the untouched original) and keeps your codes and quotations.",
+        "Right-click a paper ▸ \"Problems with this paper?\": one place with the fixes, written as problems (words run together, selection jumps between columns, no selectable text, blurry PDF, wrong page numbers).",
+        "Export: two AI exports. \"Research dossier\" is the compact one; \"Complete library\" holds almost everything: full paper records with quality data, reading status and priority, topics, paper connections, codebook with co-occurrence, all coded passages, watchlist and notebook.",
+        "Settings: new \"Share Scholia\" section with a share button (link to the GitHub page), a ready invitation text, and the copyright and disclaimer."
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "1.0.7",
       "date": "2026-10-27",
       "minOS": "14.0",
